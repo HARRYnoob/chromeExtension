@@ -1,0 +1,44 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding:15px;
+}
+#typeBox{
+    width:100%;
+    box-sizing: border-box;
+    padding:10px;
+    height :30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: medium;
+}
+#btn{
+  padding:11px 21px;
+  border: none;
+  background-color: rgb(86, 154, 37);
+  border-radius: 2px;
+  font-weight:bold;
+  color:white;
+  cursor: pointer;
+  margin: 5px;
+  }
+
+#btn:hover{
+    background-color: rgb(156, 239, 92);
+    color: white;
+  }
+  #buton{
+    padding:10px 20px;
+  border: 1px,rgb(86, 154, 37) solid ;
+  background-color:white;
+  border-radius: 2px;
+  font-weight:bold;
+  color: rgb(86, 154, 37);
+  cursor: pointer;
+  margin:5px;
+  }
+  #buton:hover{
+    background-color:rgb(156, 239, 92) ;
+    color: white;
+  }
