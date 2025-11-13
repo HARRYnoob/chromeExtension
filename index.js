@@ -11,11 +11,15 @@ if (moveInfo){
     savedInfo = moveInfo;
     render(savedInfo);
 }
-const tab = [{url : "https://www.instagram.com/"}]
+//const tabs = [{url : "https://www.instagram.com/"}]
+
 saveTab.addEventListener("click",function(){
-savedInfo.push(tab[0].url);
-localStorage.setItem("info",JSON.stringify(savedInfo))
-render(savedInfo);
+    chrome.tabs.query({active : true,currentWindow : true}, function(tabs){
+        savedInfo.push(tabs[0].url);
+        localStorage.setItem("info",JSON.stringify(savedInfo))
+        render(savedInfo);
+    })
+
 })
 
 button2.addEventListener("dblclick",function(){
