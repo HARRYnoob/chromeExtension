@@ -16,6 +16,7 @@ body{
 #btn{
   padding:11px 21px;
   border: none;
+  font-size: 13px;
   background-color: rgb(86, 154, 37);
   border-radius: 2px;
   font-weight:bold;
@@ -23,7 +24,20 @@ body{
   cursor: pointer;
   margin: 5px;
   }
-
+  #save-tab{
+  padding:11px 21px;
+  border: none;
+  background-color: rgb(86, 154, 37);
+  border-radius: 2px;
+  font-weight:bold;
+  color:white;
+  cursor: pointer;
+  margin: 5px;
+  }
+#save-tab:hover{
+    background-color: rgb(156, 239, 92);
+    color: white;
+  }
 #btn:hover{
     background-color: rgb(156, 239, 92);
     color: white;
