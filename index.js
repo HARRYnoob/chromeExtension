@@ -5,7 +5,7 @@ const output = document.getElementById("divv");
 const button2 = document.getElementById("buton");
 const saveTab = document.getElementById("save-tab");
 const moveInfo = JSON.parse(localStorage.getItem("info"));
-//console.log(moveInfo);
+
 let savedInfo  = [];
 if (moveInfo){
     savedInfo = moveInfo;
