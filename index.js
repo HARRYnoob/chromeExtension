@@ -11,7 +11,7 @@ if (moveInfo){
     savedInfo = moveInfo;
     render(savedInfo);
 }
-//const tabs = [{url : "https://www.instagram.com/"}]
+
 
 saveTab.addEventListener("click",function(){
     chrome.tabs.query({active : true,currentWindow : true}, function(tabs){

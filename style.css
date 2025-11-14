@@ -35,7 +35,7 @@ body{
   margin: 5px;
   }
 #save-tab:hover{
-    background-color: rgb(156, 239, 92);
+    background-color: rgb(162, 243, 101);
     color: white;
   }
 #btn:hover{
@@ -48,7 +48,7 @@ body{
   background-color:white;
   border-radius: 2px;
   font-weight:bold;
-  color: rgb(86, 154, 37);
+  color: rgb(100, 172, 49);
   cursor: pointer;
   margin:5px;
   }
