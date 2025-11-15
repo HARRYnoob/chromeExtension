@@ -11,6 +11,7 @@ if (moveInfo){
     savedInfo = moveInfo;
     render(savedInfo);
 }
+console.log("new git trial");
 
 
 saveTab.addEventListener("click",function(){
