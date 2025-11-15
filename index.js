@@ -11,9 +11,6 @@ if (moveInfo){
     savedInfo = moveInfo;
     render(savedInfo);
 }
-console.log("new git trial");
-
-
 saveTab.addEventListener("click",function(){
     chrome.tabs.query({active : true,currentWindow : true}, function(tabs){
         savedInfo.push(tabs[0].url);
